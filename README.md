@@ -15,7 +15,7 @@
 ######**Output**: Formatted fasta files saved to temp.txt, then renamed to replace original fasta file.
 
 
-######**References**: 
-http://pythoncentral.io/introductory-tutorial-python-sqlalchemy/
-http://www.rmunn.com/sqlalchemy-tutorial/tutorial.html
+#####**References**: 
+http://pythoncentral.io/introductory-tutorial-python-sqlalchemy/  
+http://www.rmunn.com/sqlalchemy-tutorial/tutorial.html  
 http://www.blog.pythonlibrary.org/2010/02/03/another-step-by-step-sqlalchemy-tutorial-part-1-of-2/
