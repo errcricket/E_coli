@@ -1,0 +1,174 @@
+LOCUS       Z48231                  2806 bp    DNA     linear   BCT 23-OCT-2008
+DEFINITION  E.coli IncQ plasmid pIE639 sat3 gene and aphA gene.
+ACCESSION   Z48231
+VERSION     Z48231.1  GI:669114
+KEYWORDS    aminoglycoside phosphotransferase; aphA gene; sat3 gene;
+            streptothricin acetyltransferase.
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1
+  AUTHORS   Scholz,P., Haring,V., Wittmann-Liebold,B., Ashman,K.,
+            Bagdasarian,M. and Scherzinger,E.
+  TITLE     Complete nucleotide sequence and gene organization of the
+            broad-host-range plasmid RSF1010
+  JOURNAL   Gene 75 (2), 271-288 (1989)
+   PUBMED   2653965
+  REMARK    (sites)
+REFERENCE   2  (bases 1 to 1074)
+  AUTHORS   Tietze,E. and Brevet,J.
+  TITLE     Nucleotide sequence of the bacterial streptothricin resistance gene
+            sat3
+  JOURNAL   Biochim. Biophys. Acta 1263 (2), 176-178 (1995)
+   PUBMED   7640311
+REFERENCE   3  (bases 1 to 2806)
+  AUTHORS   Tietze,E.
+  TITLE     A conserved block of DNA coding for resistance to kanamycin and to
+            streptothricin occurs in the IncQ plasmid pIE639 and in another
+            unrelated replicon
+  JOURNAL   Unpublished
+REFERENCE   4  (bases 1 to 2806)
+  AUTHORS   Tietze,E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-FEB-1995) Tietze E., Robert-Koch-Institut, Bereich
+            Wernigerode, Burgstrasse 37, Wernigerode, Federal Republic of
+            Germany, 38843
+FEATURES             Location/Qualifiers
+     source          1..2806
+                     /organism="Escherichia coli"
+                     /mol_type="genomic DNA"
+                     /isolate="naturally occuring IncQ plasmid pIE639"
+                     /db_xref="taxon:562"
+                     /clone="recombinant plasmid pIE1090"
+                     /lab_host="E.coli O20:H- strain IE950"
+                     /plasmid="pIE639"
+     misc_feature    complement(1..130)
+                     /note="core sequence of IncQ plasmids, 7644..7774 in
+                     RSF1010 (EMBL Acc. No. M28829) [2], [3]"
+     repeat_region   114..134
+                     /note="label:DR1;
+                     19/20bp match with DR2"
+                     /citation=[3]
+                     /rpt_type=DIRECT
+     misc_feature    131..2501
+                     /note="DNA replacing nucleotides 7574..7643 of the IncQ
+                     prototype plasmid RSF1010 (EMBL Acc. No. M28829) to give
+                     the IncQ plasmid pIE639 [2], [3]"
+     regulatory      159..165
+                     /regulatory_class="minus_35_signal"
+                     /citation=[2]
+     regulatory      181..186
+                     /regulatory_class="minus_10_signal"
+                     /citation=[2]
+     regulatory      208..211
+                     /regulatory_class="ribosome_binding_site"
+                     /citation=[2]
+     gene            221..763
+                     /gene="sat3"
+     CDS             221..763
+                     /gene="sat3"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="confers resistance to streptothricin"
+                     /citation=[2]
+                     /codon_start=1
+                     /transl_table=11
+                     /product="streptothricin acetyltransferase"
+                     /protein_id="CAA88265.1"
+                     /db_xref="GI:669115"
+                     /db_xref="GOA:Q798S0"
+                     /db_xref="InterPro:IPR000182"
+                     /db_xref="InterPro:IPR008125"
+                     /db_xref="InterPro:IPR016181"
+                     /db_xref="UniProtKB/TrEMBL:Q798S0"
+                     /translation="MTPQSMRELVICRASDADVLQLARCDFSFEVTAELEEPFDDMRS
+                     VPVKPPYLKNYGFDADELVEHMNNSAGALFVARADNCLVGYLAVSQSWNEYAVIDDIA
+                     VDVPYRGSGVSRLLMDAAVDWARNVPSAGVRLETQSVNLAACRFYRRYGFRLGGYDRY
+                     LYRGLHPGSREVALFWYLSF"
+     regulatory      810..813
+                     /regulatory_class="ribosome_binding_site"
+                     /citation=[3]
+     gene            820..1635
+                     /gene="aphA"
+     CDS             820..1635
+                     /gene="aphA"
+                     /standard_name="aph(3')-Id"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="confers resistance to kanamycin and neomycin, a new
+                     aph(3') gene according to the nomenclature as proposed by
+                     Shaw et al. (1993) Microbiol. Rev. 57:138-163"
+                     /citation=[3]
+                     /codon_start=1
+                     /transl_table=11
+                     /product="aminoglycoside phosphotransferase"
+                     /protein_id="CAA88266.1"
+                     /db_xref="GI:669116"
+                     /db_xref="GOA:Q798R9"
+                     /db_xref="InterPro:IPR002575"
+                     /db_xref="InterPro:IPR011009"
+                     /db_xref="UniProtKB/TrEMBL:Q798R9"
+                     /translation="MSEWRRQQVCAPIPMPASMATSLEGYQWAPITIGESGSNVYRLY
+                     GKPKAPDLFLKRGKYDVADDVTDEMVRLRWLAERIPVPTVVNFVRTLDEAWLLTTAMP
+                     GRTVYEELEANPDACLAIADALADFLRRLHEIPTIECPFNSNHIYRLALARKRIEAGM
+                     VEVDDFDDERKGWAAEQVWDAMHNLLPFTPDPVTTHGDSALENLFVREGKVTGCIDVG
+                     RSGVADRYQDIAILWNRLGEFGSLPQERFVEQYGIADVDRRKLSFHLMLDELF"
+     repeat_region   1855..1874
+                     /note="label:DR2;
+                     19/20bp match with DR1"
+                     /citation=[3]
+                     /rpt_type=DIRECT
+     misc_feature    complement(2502..2806)
+                     /note="core sequence of IncQ plasmids, 7573..7269 in
+                     RSF1010 (EMBL Acc. No. M28829) [2], [3]"
+ORIGIN      
+        1 ctgcaggagc agaagagcat acatctggaa gcaaagccag gaaagcggcc tatggagctg
+       61 tgcggcagcg ctcagtaggc aatttttcaa aatattgtta agccttttct gagcatggta
+      121 tttttcatgg cattgctatg atttattttt taaaactatt gaaaataaag aaaattatta
+      181 tattatttat aataaaggtc tgtgacaagg aatccccgtc atgacgccac agtcaatgcg
+      241 tgaattggtc atctgtcgtg caagcgatgc cgacgttctt cagcttgcgc ggtgcgattt
+      301 ctctttcgag gtcacagctg agctcgaaga gccgttcgat gacatgcggt ccgttccagt
+      361 caagccgccc tacctcaaga actatggctt tgatgccgat gagttggtcg agcatatgaa
+      421 caactctgct ggggcgttgt ttgtggctcg ggcggacaat tgccttgttg gctacttggc
+      481 cgtgtctcaa agctggaacg aatatgccgt catcgatgat atcgcggtcg atgtgcccta
+      541 tcgggggagt ggcgtttcgc gcttgctgat ggatgcagct gtggactggg cacgaaatgt
+      601 gccgtcggca ggcgtacgtc tggagacgca gtccgttaat ctcgccgcat gtcgctttta
+      661 ccgacgatac ggtttccggt taggtggtta tgatcgctac ctgtatcgtg gcctgcatcc
+      721 gggcagccga gaggtagctc tgttctggta tttgagtttt taaatgacaa actttggccg
+      781 tccgggaaac ggcactcggc cagatgagcg gagttatgaa tgagtgagtg gcgacgacag
+      841 caagtctgtg cacctattcc catgcctgcg agcatggcaa ccagtctgga aggataccaa
+      901 tgggcgccta tcacaattgg tgaatccggc agcaatgttt atcgacttta tgggaaacca
+      961 aaagctcctg atttgttttt gaagcgaggt aagtacgacg ttgctgatga tgtgaccgat
+     1021 gaaatggtca ggctacgctg gcttgccgaa cgtatccctg tgccaaccgt cgtcaacttt
+     1081 gttcgcaccc tcgacgaagc gtggttgctg acaacggcaa tgcctggcag gacggtctac
+     1141 gaagagctgg aggcgaatcc cgatgcttgc cttgccatcg cagacgcgct agctgatttc
+     1201 ttgcgccgcc tgcatgagat cccaacgatt gaatgccctt tcaacagcaa tcacatctac
+     1261 agacttgctc ttgcgcgcaa acgcatcgaa gcgggcatgg tcgaggtcga tgactttgat
+     1321 gacgaacgga aaggctgggc ggctgagcag gtatgggatg cgatgcataa tcttcttccg
+     1381 ttcacgcccg atcctgtcac aacgcacgga gattctgctc tcgagaatct cttcgttcgc
+     1441 gaaggcaagg tgactggttg cattgatgtt ggaagatcag gcgttgcaga tcgataccag
+     1501 gacatagcca tactctggaa ccgtctaggt gagtttggct ctttgcccca ggaacgattc
+     1561 gtggagcaat atggcatcgc tgatgtagat cgacggaagc tgtcatttca cttgatgctg
+     1621 gatgagctgt tttgaggcta cgatgctcga actggatgcg gtgcagtgca gtgcagtgca
+     1681 gtgcagtgcg gtggcaggtg gcctccccgt gcatgaacgc cgctgttttg ccaaaccttc
+     1741 atttgatgat gacgtcacag taggatcgca cctgcacatt cgaacgtcct gtgcaaacct
+     1801 gtcggcgcgg tccctgctcg cctgagtcac tggtgagcag accgattggc ttgccatggt
+     1861 atttttcgtg gtatcggtga gggcgtctgt ttcaattatt tgatttaaaa aggatttttc
+     1921 ttcttattga ttactgagtg ggatacagac acgcttgata tgtttggaga tcagccatga
+     1981 cagatccact caaagccctt ttcggcaagc ctgattactc ccatatcgta agggacacca
+     2041 cggccactat cagcatcaca gccgctgaaa tggccgctaa atggcccctt cggggctgca
+     2101 caccgccccc acccttcggg tagggaaaag gccgctaaag cggctaaaat cgctccagcg
+     2161 tattcccgca gaatttggtg tggggtttag cgggctttgc ccgcctttcc ccctgccgcg
+     2221 cagcggtggg ggggcgtgtg cagcctagcg cagcggatag agcaattatc cggcctctgg
+     2281 ccggcatttt aggcaagggc aaacagtgcc ccactagggc gctgttaacc gcgcctagtg
+     2341 gattattctt ggataatcat ggatggattt ttccaacacc acgccaactc tcacccttcc
+     2401 tgggtttgca ggtttggggg cgtgacagtt accggggggg ttcgtgacag ttaccggggg
+     2461 ggggggcgtg acagttaccg ggggggcgtg attgttaaac aggggggtca gcctgccgcc
+     2521 ttgggccggg tgatgtcgta cttgcccgcc gcgaactcgg ttaccgtcca gcccagcgcg
+     2581 accagctccg gcaacgcctc gcgcacccgc tggcggcgct tgcgcatggt cgaaccactg
+     2641 gcctctgacg gccagacata gccgcacaag gtatctatgg aagccttgcc ggttttgccg
+     2701 gggtcgatcc agccacacag ccgctggtgc agcaggcggg cggtttcgct gtccagcgcc
+     2761 cgcacctcgt ccatgctgat gcgcacatgc tggccgccac ccatga
+//
+
