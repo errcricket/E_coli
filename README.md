@@ -13,3 +13,9 @@
 ###### Concatenate sequence reads which are spread across multiple lines (e.g., not wrapped). This script has been adapted to search a specified directory for fasta (*.fna) files. 
 ######**Input**: Directory name (directory contains fasta files)
 ######**Output**: Formatted fasta files saved to temp.txt, then renamed to replace original fasta file.
+
+
+######**References**: 
+http://pythoncentral.io/introductory-tutorial-python-sqlalchemy/
+http://www.rmunn.com/sqlalchemy-tutorial/tutorial.html
+http://www.blog.pythonlibrary.org/2010/02/03/another-step-by-step-sqlalchemy-tutorial-part-1-of-2/
