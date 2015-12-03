@@ -1,11 +1,8 @@
 # E_coli Database Project
-# Six Campy Strains Project
 ---------------------------
 
-
-###The following scripts are are used to extract CDS information from 7 Campylobacter strains.
+###The following scripts are used to create a database of E_coli strains.
 ---------------------------------------------------------------------------------------------
-
 
 #####Step 1. python download_files.py emailAddress
 ######Given a tab-del file, extract accession number (for chromosome & plasmid) from file to download genbank records from Entrez. Files will be downloaded and renamed to reflect the accession number.
